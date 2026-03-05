@@ -1,0 +1,5 @@
+name = "wrld-tel-website"
+compatibility_date = "2025-01-01"
+
+# Cloudflare Pages static site — deploy with:
+#   npx wrangler pages deploy . --project-name=wrld-tel-website
