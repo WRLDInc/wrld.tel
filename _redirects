@@ -1,0 +1,17 @@
+# Cloudflare Pages redirects — https://developers.cloudflare.com/pages/configuration/redirects/
+# Clean URLs for the legal pages (Pages also serves them natively; kept explicit).
+/privacy        /privacy.html   200
+/terms          /terms.html     200
+/privacy.html   /privacy        301
+/terms.html     /terms          301
+# Convenience paths into the portal and the WRLD family.
+/login          https://dash.wrld.tel        302
+/portal         https://dash.wrld.tel        302
+/dash           https://dash.wrld.tel        302
+/support        https://wrld.support         302
+/help           https://wrld.help            302
+/status         https://status.wrld.host     302
+/book           https://calendar.wrld.tech   302
+# The legacy favicon path used by older embeds.
+/favicon.ico    /logos/favicons/favicon.ico  200
+/apple-touch-icon.png /logos/favicons/apple-touch-icon.png 200

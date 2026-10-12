@@ -1,0 +1,16 @@
+# wrld.tel — WRLD.Tel, business VoIP with AI call analysis (WRLD Tech Co.)
+#
+# Content Signals (https://contentsignals.org/). Marketing copy follows the
+# wrld.tech stance: index it and use it to answer questions, but do not train
+# on it. The design system it is built with (https://wrld.design) is fully open.
+
+# Screpy, the SEO monitor for WRLD properties.
+User-agent: ScrepyBot
+Allow: /
+
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
+Disallow: /logos/
+
+Sitemap: https://wrld.tel/sitemap.xml

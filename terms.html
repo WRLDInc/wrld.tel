@@ -1,43 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="auto">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terms of Service — WRLD VoIP Systems</title>
-  <meta name="description" content="Terms of service for WRLD VoIP Systems and wrld.tel services.">
-  <meta name="robots" content="noindex">
-  <link rel="canonical" href="https://wrld.tel/terms">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','sans-serif']}}}}</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Terms of service — WRLD.Tel | WRLD Tech Co.</title>
+<meta name="description" content="Terms of service for wrld.tel and the WRLD.Tel business VoIP and AI call analysis service provided by WRLD Tech Co.">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="canonical" href="https://wrld.tel/terms">
+<link rel="icon" href="/logos/favicons/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/logos/favicons/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/logos/favicons/apple-touch-icon.png">
+<script>(function(){var t;try{t=localStorage.getItem('wrld-theme')}catch(e){}if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)})();</script>
+<link rel="preconnect" href="https://wrld.design" crossorigin>
+<link rel="stylesheet" href="https://wrld.design/styles.css">
+<style>
+:root{--wrld-mono-0:#ffffff;--wrld-mono-50:#fafafa;--wrld-mono-100:#f4f4f5;--wrld-mono-200:#e4e4e7;--wrld-mono-300:#d4d4d8;--wrld-mono-400:#a1a1aa;--wrld-mono-500:#71717a;--wrld-mono-600:#52525b;--wrld-mono-700:#3f3f46;--wrld-mono-800:#27272a;--wrld-mono-900:#18181b;--wrld-mono-950:#0a0a0a;--wrld-accent-primary:#007fee;--wrld-accent-primary-rgb:0 127 238;--wrld-font-display:'Montserrat','Helvetica Neue',Arial,sans-serif;--wrld-font-body:'Ubuntu',system-ui,-apple-system,sans-serif;--wrld-font-mono:'Ubuntu Mono',ui-monospace,SFMono-Regular,Menlo,monospace;--wrld-radius-pill:9999px;--wrld-radius-sm:4px;--wrld-ls-display:-.02em;--wrld-ls-eyebrow:.12em;--wrld-duration-default:200ms;--wrld-ease-standard:cubic-bezier(.2,.8,.2,1);
+--wrld-bg:var(--wrld-mono-0);--wrld-bg-elevated:var(--wrld-mono-0);--wrld-fg:var(--wrld-mono-950);--wrld-fg-muted:var(--wrld-mono-600);--wrld-fg-subtle:var(--wrld-mono-500);--wrld-fg-inverse:var(--wrld-mono-0);--wrld-border:var(--wrld-mono-200)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--wrld-bg:var(--wrld-mono-950);--wrld-bg-elevated:var(--wrld-mono-900);--wrld-fg:var(--wrld-mono-50);--wrld-fg-muted:var(--wrld-mono-400);--wrld-fg-subtle:var(--wrld-mono-500);--wrld-fg-inverse:var(--wrld-mono-950);--wrld-border:var(--wrld-mono-800)}}
+:root[data-theme="dark"]{--wrld-bg:var(--wrld-mono-950);--wrld-bg-elevated:var(--wrld-mono-900);--wrld-fg:var(--wrld-mono-50);--wrld-fg-muted:var(--wrld-mono-400);--wrld-fg-subtle:var(--wrld-mono-500);--wrld-fg-inverse:var(--wrld-mono-950);--wrld-border:var(--wrld-mono-800)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--wrld-bg);color:var(--wrld-fg);font-family:var(--wrld-font-body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+header.site{position:sticky;top:0;z-index:100;padding:12px}
+.pill-nav{display:flex;align-items:center;justify-content:space-between;max-width:1440px;margin:0 auto;background:color-mix(in srgb,var(--wrld-bg-elevated) 86%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-radius:var(--wrld-radius-pill);padding:5px;border:1px solid var(--wrld-border)}
+.lockup{display:flex;align-items:center;gap:8px;padding-left:2px}
+.lockup .disc{display:flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:var(--wrld-fg);color:var(--wrld-fg-inverse);font-size:26px}
+.lockup .mark{width:1em;height:1em;display:block}
+.lockup .word{font-family:var(--wrld-font-display);font-weight:700;font-size:16px;letter-spacing:.04em}
+.lockup .sub{font-family:var(--wrld-font-display);font-weight:500;font-size:11px;letter-spacing:.18em;color:var(--wrld-fg-subtle);margin-left:2px}
+.pill-nav .links{display:flex;gap:20px;padding-right:16px;font-size:14px}
+.pill-nav .links a{transition:color var(--wrld-duration-default) var(--wrld-ease-standard)}
+.pill-nav .links a:hover{color:var(--wrld-accent-primary)}
+main{max-width:760px;margin:0 auto;padding:48px 24px 96px}
+.eyebrow{font-size:12px;font-weight:500;letter-spacing:var(--wrld-ls-eyebrow);text-transform:uppercase;color:var(--wrld-fg-muted);margin:0 0 12px}
+h1{font-family:var(--wrld-font-display);font-weight:600;font-size:clamp(2rem,1.5rem + 2vw,3rem);letter-spacing:var(--wrld-ls-display);line-height:1.1;margin:0 0 8px;color:var(--wrld-fg)}
+.updated{font-family:var(--wrld-font-mono);font-size:12px;color:var(--wrld-fg-subtle);margin:0 0 40px}
+h2{font-family:var(--wrld-font-display);font-weight:600;font-size:1.25rem;letter-spacing:var(--wrld-ls-display);line-height:1.25;margin:40px 0 12px;color:var(--wrld-fg)}
+p,li{color:var(--wrld-fg-muted);margin:0 0 14px}
+ul{padding-left:20px;margin:0 0 14px}
+main a{color:var(--wrld-fg);text-decoration:underline;text-underline-offset:.2em;text-decoration-thickness:1px;transition:color var(--wrld-duration-default) var(--wrld-ease-standard)}
+main a:hover{color:var(--wrld-accent-primary)}
+footer.site{border-top:1px solid var(--wrld-border);padding:24px;font-family:var(--wrld-font-mono);font-size:12px;color:var(--wrld-fg-subtle)}
+footer.site .wrap{max-width:1280px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+footer.site a{transition:color var(--wrld-duration-default)}
+footer.site a:hover{color:var(--wrld-accent-primary)}
+:focus-visible{outline:none;box-shadow:0 0 0 3px rgb(var(--wrld-accent-primary-rgb) / .28)}
+@media (prefers-reduced-motion:reduce){*{transition-duration:1ms!important}}
+</style>
 </head>
-<body class="bg-slate-950 text-white font-sans antialiased">
-  <nav class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/50">
-    <div class="max-w-3xl mx-auto px-6 h-16 flex items-center">
-      <a href="/" class="flex items-center gap-2.5">
-        <img src="https://wrld.host/favicon.ico" alt="WRLD" class="w-8 h-8 rounded" width="32" height="32">
-        <span class="text-lg font-semibold tracking-tight">WRLD VoIP</span>
-      </a>
-    </div>
+<body>
+<header class="site">
+  <nav class="pill-nav" aria-label="Primary">
+    <a class="lockup" href="/" aria-label="WRLD.Tel home"><span class="disc"><svg class="mark" viewBox="0 0 200 200" aria-hidden="true"><g fill="currentColor"><polygon points="130.55,171.68 135.27,167.16 100,100 153.23,156.91 137.7,188.44 130.55,171.68"/><polygon points="153.23,156.91 156.11,151.05 100,100 169.48,135.27 165.67,170.21 153.23,156.91"/><polygon points="169.48,135.27 170.19,128.78 100,100 177.35,109.38 185.73,143.52 169.48,135.27"/><polygon points="177.35,109.38 175.8,103.04 100,100 175.9,82.36 195.44,111.57 177.35,109.38"/><polygon points="175.9,82.36 172.27,76.93 100,100 165.29,57.47 193.64,78.23 175.9,82.36"/><polygon points="165.29,57.47 160.02,53.6 100,100 146.8,37.7 180.55,47.52 165.29,57.47"/><polygon points="146.8,37.7 140.53,35.88 100,100 122.67,25.45 157.74,23.13 146.8,37.7"/><polygon points="122.67,25.45 116.15,25.88 100,100 95.81,22.19 127.97,8.02 122.67,25.45"/><polygon points="95.81,22.19 89.83,24.83 100,100 69.45,28.32 94.82,4 95.81,22.19"/><polygon points="69.45,28.32 64.73,32.84 100,100 46.77,43.09 62.31,11.56 69.45,28.32"/><polygon points="46.77,43.09 43.89,48.95 100,100 30.52,64.73 34.33,29.79 46.77,43.09"/><polygon points="30.52,64.73 29.81,71.22 100,100 22.65,90.62 14.27,56.48 30.52,64.73"/><polygon points="22.65,90.62 24.2,96.96 100,100 24.1,117.64 4.56,88.42 22.65,90.62"/><polygon points="24.1,117.64 27.74,123.07 100,100 34.72,142.53 6.36,121.77 24.1,117.64"/><polygon points="34.72,142.53 39.98,146.4 100,100 53.2,162.3 19.45,152.48 34.72,142.53"/><polygon points="53.2,162.3 59.47,164.12 100,100 77.33,174.55 42.26,176.87 53.2,162.3"/><polygon points="77.33,174.55 83.85,174.12 100,100 104.2,177.81 72.03,191.98 77.33,174.55"/><polygon points="104.2,177.81 110.17,175.17 100,100 130.55,171.68 105.18,196 104.2,177.81"/></g></svg></span><span class="word">WRLD</span><span class="sub">TEL</span></a>
+    <div class="links"><a href="/">Home</a><a href="/privacy">Privacy</a><a href="https://wrld.tech/contact" rel="noopener">Contact WRLD</a></div>
   </nav>
-  <main class="max-w-3xl mx-auto px-6 pt-28 pb-20">
-    <h1 class="text-4xl font-bold mb-8">Terms of Service</h1>
-    <div class="prose prose-invert prose-slate max-w-none space-y-6 text-slate-300 leading-relaxed">
-      <p>Last updated: February 25, 2026</p>
-      <p>These Terms of Service govern your use of wrld.tel and WRLD VoIP Systems services provided by WRLD Tech Co.</p>
+</header>
+<main>
+  <p class="eyebrow">Legal</p>
+  <h1>Terms of service</h1>
+  <p class="updated">Last updated: October 11, 2026</p>
 
-      <h2 class="text-xl font-semibold text-white mt-8">Service Description</h2>
-      <p>WRLD VoIP Systems provides AI-powered call analysis and VoIP management services built on the Telzio platform. Service is provided on a month-to-month basis with no long-term contracts.</p>
+  <p>These terms govern your use of wrld.tel, the WRLD.Tel business VoIP and AI call analysis service and the client portal at <a href="https://dash.wrld.tel" rel="noopener">dash.wrld.tel</a>, each provided by WRLD Tech Co., a DBA of WRLD Inc. ("WRLD", "we"). Where your organisation has a signed service agreement with WRLD, that agreement takes precedence over these terms.</p>
 
-      <h2 class="text-xl font-semibold text-white mt-8">Acceptable Use</h2>
-      <p>You agree to use our services only for lawful purposes and in accordance with these terms. You must not misuse the service or attempt to interfere with its operation.</p>
+  <h2>The service</h2>
+  <p>WRLD.Tel provides cloud business telephony on the Telzio platform together with call recording, AI transcription and analysis, call intelligence and a reporting dashboard. Telephony features, coverage and emergency-calling behaviour are those of the underlying Telzio platform and are subject to <a href="https://telzio.com" rel="noopener">Telzio's</a> terms where they apply to carrier services.</p>
 
-      <h2 class="text-xl font-semibold text-white mt-8">Contact</h2>
-      <p>For questions about these terms, contact <a href="mailto:support@wrld.tech" class="text-cyan-400 hover:text-cyan-300">support@wrld.tech</a>.</p>
-    </div>
-  </main>
+  <h2>Term, billing and cancellation</h2>
+  <p>Service is provided month-to-month. There are no long-term contracts, auto-renewing multi-year terms or early termination fees. Charges are usage-based and invoiced monthly. You may cancel in any month by written notice to <a href="mailto:helpdesk@wrld.tech">helpdesk@wrld.tech</a>; service continues to the end of the current billing period. New accounts are covered by a 60-day money-back guarantee on WRLD.Tel service fees.</p>
+
+  <h2>Hardware</h2>
+  <p>WRLD does not lease hardware. Handsets supplied by WRLD are sold outright and become your property on payment. Equipment you bring must meet the SIP and network requirements we provide during onboarding.</p>
+
+  <h2>Call recording and compliance</h2>
+  <p>You are responsible for deciding whether to record calls and for complying with the notice and consent laws that apply to your organisation and the parties you call. WRLD provides the configuration to enable or disable recording and to set retention. Where regulated data is involved, a business associate agreement or equivalent can be put in place before recording is enabled.</p>
+
+  <h2>Acceptable use</h2>
+  <p>You agree to use the service lawfully and not to use it for unsolicited bulk calling or messaging, caller-ID spoofing, harassment, fraud or any attempt to interfere with the platform or other customers. We may suspend service to protect the platform, and will tell you why.</p>
+
+  <h2>AI analysis</h2>
+  <p>Transcripts, summaries, sentiment scores and inferred caller details are generated automatically and are provided to help your team, not to replace its judgement. Inferred details are presented with their basis and confidence and should be confirmed before being relied upon.</p>
+
+  <h2>Availability and support</h2>
+  <p>We work to keep the service available at all times and the Telzio platform is engineered for carrier-grade uptime, but no communications service is guaranteed to be uninterrupted. Support is provided by <a href="https://wrld.support" rel="noopener">WRLD.Support</a> through the channels listed on wrld.tel.</p>
+
+  <h2>Liability</h2>
+  <p>To the extent permitted by law, WRLD's total liability arising from the service in any twelve-month period is limited to the fees you paid for WRLD.Tel in that period. WRLD is not liable for indirect or consequential loss.</p>
+
+  <h2>Changes and contact</h2>
+  <p>We may update these terms; material changes will be announced on wrld.tel or by email before they take effect. Questions: <a href="mailto:helpdesk@wrld.tech">helpdesk@wrld.tech</a> · <a href="tel:+14692999598">469.299.9598</a> · WRLD Tech Co., Dallas, Texas.</p>
+</main>
+<footer class="site"><div class="wrap"><span>© 2026 WRLD Inc. · DBA WRLD Tech Co. · Dallas, TX</span><span><a href="/">wrld.tel</a> · <a href="/privacy">Privacy</a> · <a href="https://wrld.tech" rel="noopener">wrld.tech</a> · <a href="https://wrld.support" rel="noopener">WRLD.Support</a></span></div></footer>
 </body>
 </html>

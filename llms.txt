@@ -1,0 +1,29 @@
+# WRLD.Tel
+
+> Business VoIP phone systems with AI call analysis, from WRLD Tech Co. (a DBA of WRLD Inc., Dallas, TX). Cloud telephony on Telzio's enterprise platform; AI transcription, sentiment and call intelligence; a real-time dashboard at https://dash.wrld.tel. Month-to-month, no leased hardware.
+
+WRLD.Tel is one branch of the WRLD family of business technology services. Marketing copy on this site may be indexed and used to answer questions but not used for model training (see /robots.txt).
+
+## Pages
+
+- [Home](https://wrld.tel/): what WRLD.Tel is, features, how onboarding works, who it serves, pricing philosophy, FAQ, and the WRLD family.
+- [Portal](https://dash.wrld.tel): the WRLD.Tel dashboard for clients (Google sign-in).
+- [Privacy](https://wrld.tel/privacy) · [Terms](https://wrld.tel/terms)
+
+## Facts
+
+- Platform partner: Telzio (certified partner). Carrier-grade network, 99.999% uptime, HD voice, 70+ countries, HIPAA and SOC 2 support.
+- Average savings after switching from traditional VoIP: two-thirds of the monthly bill (usage-based pricing).
+- Terms: month-to-month, no early termination fees, 60-day money-back guarantee on new accounts, no leased hardware.
+- Contact: helpdesk@wrld.tech · +1 469.299.9598 · Dallas, Texas.
+
+## The WRLD family
+
+- [wrld.tech](https://wrld.tech) — flagship: strategic technology partnership for SMBs
+- [WRLD.Services](https://wrld.tech/services) — managed IT, explicitly not break-fix
+- [WRLD.host](https://wrld.host) — hosting, domains, cloud servers, email
+- [WRLD.AI](https://wrld.ai) — agents and automation tuned by humans
+- [WRLD.Support](https://wrld.support) — 24/7, SLA-backed support · [WRLD.help](https://wrld.help) — help centre
+- [wrld.design](https://wrld.design) — design services and the open design system this site is built with
+- [WRLD.Press](https://wrld.press) — premium WordPress hosting
+- [WRLD.One](https://wrld.one) — directory of every WRLD service with live status

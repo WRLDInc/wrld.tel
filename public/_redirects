@@ -1,5 +1,0 @@
-# Cloudflare Pages redirects
-# https://developers.cloudflare.com/pages/configuration/redirects/
-
-/privacy   /privacy.html   200
-/terms     /terms.html     200
